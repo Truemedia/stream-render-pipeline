@@ -57,3 +57,9 @@ File generation strategy for working with creating/modifying files using gulp
 ```bash
   gulp text
 ```
+
+## Structure
+- */pipes*
+- */presets*
+- */questions*
+- */templates*
