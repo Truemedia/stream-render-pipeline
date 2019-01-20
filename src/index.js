@@ -25,6 +25,14 @@ class Srp
   }
 
   /**
+    * Pre-rendered
+    */
+  pre(destPath, fileContents)
+  {
+    return lazypipe().pipe(gulpPlugins.file, destPath, fileContents);
+  }
+
+  /**
     * Rename files and folders
     */
   get rename()

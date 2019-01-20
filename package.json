@@ -29,6 +29,7 @@
     "auto-plug": "^1.2.0",
     "gulp": "^4.0.0",
     "gulp-add-src": "^1.0.0",
+    "gulp-file": "^0.4.0",
     "gulp-rename": "^1.4.0",
     "gulp-template": "^5.0.0",
     "lazypipe": "^1.0.2"
