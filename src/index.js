@@ -11,9 +11,9 @@ class Srp
   /**
     * Files
     */
-  src(glob)
+  src(cwd, glob)
   {
-    return lazypipe().pipe(gulpPlugins.addSrc, this.tplPath(__dirname, glob))
+    return lazypipe().pipe(gulpPlugins.addSrc, this.tplPath(cwd, glob))
   }
 
   /**
