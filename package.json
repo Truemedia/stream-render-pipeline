@@ -1,6 +1,6 @@
 {
   "name": "stream-render-pipeline",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "File generation strategy for working with creating/modifying files using gulp",
   "main": "src/index.js",
   "scripts": {
